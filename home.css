@@ -1,0 +1,108 @@
+body { background-color: white; margin: 0; padding: 0; font-family: 'Roboto Condensed', sans-serif;}
+.main {
+  width: 1200px;
+  height: 1200px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-left: 100px;
+}
+
+
+.card{
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.14);
+  -moz-box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.14);
+  box-shadow: 10px 10px 23px 0px rgba(0,0,0,0.14);
+  margin: auto;
+  text-align: left;
+  cursor: pointer;
+  position: center;
+  height: 360px;
+  display: inline-block;
+  transform: scale(.9);
+  transition: all .3s; 
+}
+
+
+.card:hover{
+  transform: scale(.95);
+}
+
+.card-top {
+  width: 100px;
+  height: 270px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-top > img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 400px;
+  height: 250px;
+}
+.card-mid {
+  padding: 20px;
+  position: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  overflow:hidden;
+  border-bottom-right-radius: 10px;
+  transition: all .3s;
+}
+.card-mid h4{
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.card-mid label{
+  margin: 0;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: grey;
+}
+.card-image{
+  transition: all .3s;
+}
+.card:hover .card-image {
+  -webkit-filter: grayscale(1000); 
+  filter: grayscale(100%);
+}
+.card-desc {
+  transition: all .3s .2s;
+  border-left: 0px solid #b4deac;
+}
+.card:hover .card-desc {
+  border-left: 2px solid #b4deac;
+  padding-left: 8px;
+}
+.card-blur-zone {
+  position: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 15px;
+  background-color: rgba(255, 255, 255, .8);
+
+}
+
+.main.btn{
+    position: top;
+    width: 400px;
+    height: 270px;
+    color: black;
+    font: 100px;
+    font-family: Arial; 
+    
+}
+
